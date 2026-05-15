@@ -85,8 +85,4 @@ for temp in [0.2, 0.6, 1.0]:
 with open('../result/gen.txt', 'w', encoding='utf-8') as f:
     f.write(result_text)
 
-gen = generate_text(1000, 0.6)
-print(gen)
-
-with open('gen.txt', 'w', encoding='utf-8') as f:
-    f.write(gen)
+print(generate_text(1000, 0.6))
